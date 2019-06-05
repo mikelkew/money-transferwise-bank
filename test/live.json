@@ -1,0 +1,944 @@
+[
+  {
+    "rate": 2.71,
+    "source": "USD",
+    "target": "XCD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 9.43834,
+    "source": "USD",
+    "target": "SEK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 6279.03,
+    "source": "USD",
+    "target": "PYG",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 14275,
+    "source": "USD",
+    "target": "IDR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 36.7384,
+    "source": "USD",
+    "target": "MRU",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 5890.47,
+    "source": "USD",
+    "target": "VES",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 124.35,
+    "source": "USD",
+    "target": "ISK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2648.51,
+    "source": "USD",
+    "target": "MNT",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 7.8407,
+    "source": "USD",
+    "target": "HKD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2300,
+    "source": "USD",
+    "target": "TZS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 192.525,
+    "source": "USD",
+    "target": "LRD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 6.925,
+    "source": "USD",
+    "target": "BOB",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 101.4,
+    "source": "USD",
+    "target": "KES",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 209.215,
+    "source": "USD",
+    "target": "GYD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 9135.5,
+    "source": "USD",
+    "target": "GNF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 8.72856,
+    "source": "USD",
+    "target": "NOK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 69.395,
+    "source": "USD",
+    "target": "INR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2.27409,
+    "source": "USD",
+    "target": "TOP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 108.315,
+    "source": "USD",
+    "target": "JPY",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2.15332,
+    "source": "USD",
+    "target": "FJD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 6.9091,
+    "source": "USD",
+    "target": "CNY",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.3658,
+    "source": "USD",
+    "target": "SGD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 250.29,
+    "source": "USD",
+    "target": "YER",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3665,
+    "source": "USD",
+    "target": "MGA",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 14.8508,
+    "source": "USD",
+    "target": "LSL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 578.5,
+    "source": "USD",
+    "target": "SOS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 4.1745,
+    "source": "USD",
+    "target": "MYR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 132,
+    "source": "USD",
+    "target": "JMD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2.0157,
+    "source": "USD",
+    "target": "BZD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 909.044,
+    "source": "USD",
+    "target": "RWF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.79,
+    "source": "USD",
+    "target": "AWG",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 8894.26,
+    "source": "USD",
+    "target": "SLL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 176.425,
+    "source": "USD",
+    "target": "LKR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.3658,
+    "source": "USD",
+    "target": "BND",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 51.7,
+    "source": "USD",
+    "target": "PHP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.43441,
+    "source": "USD",
+    "target": "AUD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 32.95,
+    "source": "USD",
+    "target": "NIO",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.788519,
+    "source": "USD",
+    "target": "SHP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.709,
+    "source": "USD",
+    "target": "JOD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 8.076,
+    "source": "USD",
+    "target": "MOP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 69.3712,
+    "source": "USD",
+    "target": "BTN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 900.018,
+    "source": "USD",
+    "target": "KPW",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 4.20201,
+    "source": "USD",
+    "target": "RON",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1180.2,
+    "source": "USD",
+    "target": "KRW",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 693.85,
+    "source": "USD",
+    "target": "CLP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 91.1733,
+    "source": "USD",
+    "target": "HTG",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 54.605,
+    "source": "USD",
+    "target": "MKD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2,
+    "source": "USD",
+    "target": "BBD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 5.37562,
+    "source": "USD",
+    "target": "GHS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 14.8541,
+    "source": "USD",
+    "target": "SZL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.80695,
+    "source": "USD",
+    "target": "PLN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 62.1105,
+    "source": "USD",
+    "target": "MZN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 9.4406,
+    "source": "USD",
+    "target": "TJS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 13.68,
+    "source": "USD",
+    "target": "SCR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.78988,
+    "source": "USD",
+    "target": "ANG",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 14.8511,
+    "source": "USD",
+    "target": "ZAR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1,
+    "source": "USD",
+    "target": "PAB",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.8715,
+    "source": "USD",
+    "target": "BRL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 435.68,
+    "source": "USD",
+    "target": "KMF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1526.22,
+    "source": "USD",
+    "target": "MMK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 45.1316,
+    "source": "USD",
+    "target": "SDG",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 16.78,
+    "source": "USD",
+    "target": "EGP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1835.09,
+    "source": "USD",
+    "target": "BIF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2.9925,
+    "source": "USD",
+    "target": "TND",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 5.72525,
+    "source": "USD",
+    "target": "TRY",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.34145,
+    "source": "USD",
+    "target": "CAD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 110.815,
+    "source": "USD",
+    "target": "NPR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.377005,
+    "source": "USD",
+    "target": "BHD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 35.135,
+    "source": "USD",
+    "target": "UYU",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.30395,
+    "source": "USD",
+    "target": "KWD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 8.7545,
+    "source": "USD",
+    "target": "SVC",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 588.55,
+    "source": "USD",
+    "target": "CRC",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 515.3,
+    "source": "USD",
+    "target": "SYP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2.1023,
+    "source": "USD",
+    "target": "BYN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1,
+    "source": "USD",
+    "target": "BMD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.78772,
+    "source": "USD",
+    "target": "IMP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.74095,
+    "source": "USD",
+    "target": "BGN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 50.475,
+    "source": "USD",
+    "target": "GMD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 10.8814,
+    "source": "USD",
+    "target": "BWP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.38505,
+    "source": "USD",
+    "target": "OMR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 115.461,
+    "source": "USD",
+    "target": "VUV",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3302.28,
+    "source": "USD",
+    "target": "COP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 84.615,
+    "source": "USD",
+    "target": "BDT",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 19.5175,
+    "source": "USD",
+    "target": "MXN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 44.82,
+    "source": "USD",
+    "target": "ARS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1,
+    "source": "USD",
+    "target": "CUC",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 69.85,
+    "source": "USD",
+    "target": "KGS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.51046,
+    "source": "USD",
+    "target": "NZD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1193.22,
+    "source": "USD",
+    "target": "IQD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 178.025,
+    "source": "USD",
+    "target": "DJF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 6.60445,
+    "source": "USD",
+    "target": "HRK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.74085,
+    "source": "USD",
+    "target": "BAM",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 480.313,
+    "source": "USD",
+    "target": "AMD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 8.06125,
+    "source": "USD",
+    "target": "SBD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.890082,
+    "source": "USD",
+    "target": "EUR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 15.075,
+    "source": "USD",
+    "target": "ERN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 8511.36,
+    "source": "USD",
+    "target": "UZS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.64125,
+    "source": "USD",
+    "target": "QAR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 29.1585,
+    "source": "USD",
+    "target": "ETB",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 6.64744,
+    "source": "USD",
+    "target": "DKK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 583.856,
+    "source": "USD",
+    "target": "XOF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 286.392,
+    "source": "USD",
+    "target": "HUF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 31.329,
+    "source": "USD",
+    "target": "TWD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.69649,
+    "source": "USD",
+    "target": "AZN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.78772,
+    "source": "USD",
+    "target": "JEP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 104.855,
+    "source": "USD",
+    "target": "RSD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 6.7729,
+    "source": "USD",
+    "target": "TTD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.7501,
+    "source": "USD",
+    "target": "SAR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2.62467,
+    "source": "USD",
+    "target": "WST",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 13.175,
+    "source": "USD",
+    "target": "ZMW",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.67315,
+    "source": "USD",
+    "target": "AED",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 23413,
+    "source": "USD",
+    "target": "VND",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 119.198,
+    "source": "USD",
+    "target": "DZD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 24.4727,
+    "source": "USD",
+    "target": "HNL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 50.61,
+    "source": "USD",
+    "target": "DOP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 65.2023,
+    "source": "USD",
+    "target": "RUB",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 31.4,
+    "source": "USD",
+    "target": "THB",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 21000,
+    "source": "USD",
+    "target": "IRR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.6056,
+    "source": "USD",
+    "target": "ILS",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 26.5,
+    "source": "USD",
+    "target": "CUP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.82,
+    "source": "USD",
+    "target": "KYD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1,
+    "source": "USD",
+    "target": "BSD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.99385,
+    "source": "USD",
+    "target": "CHF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 106.215,
+    "source": "USD",
+    "target": "XPF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1.3999,
+    "source": "USD",
+    "target": "LYD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 410,
+    "source": "USD",
+    "target": "NGN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 2.73992,
+    "source": "USD",
+    "target": "GEL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 35.6,
+    "source": "USD",
+    "target": "MUR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1647.86,
+    "source": "USD",
+    "target": "CDF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 9.9875,
+    "source": "USD",
+    "target": "VEF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 8701,
+    "source": "USD",
+    "target": "LAK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.787092,
+    "source": "USD",
+    "target": "GIP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 108.764,
+    "source": "USD",
+    "target": "ALL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 80.0932,
+    "source": "USD",
+    "target": "AFN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 9.67215,
+    "source": "USD",
+    "target": "MAD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 26.8678,
+    "source": "USD",
+    "target": "UAH",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.505,
+    "source": "USD",
+    "target": "TMT",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 22.8474,
+    "source": "USD",
+    "target": "CZK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 15.46,
+    "source": "USD",
+    "target": "MVR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 620.465,
+    "source": "USD",
+    "target": "XAF",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.78772,
+    "source": "USD",
+    "target": "GGP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.787681,
+    "source": "USD",
+    "target": "GBP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 146.95,
+    "source": "USD",
+    "target": "PKR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.35545,
+    "source": "USD",
+    "target": "PEN",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 333.773,
+    "source": "USD",
+    "target": "AOA",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 4074.35,
+    "source": "USD",
+    "target": "KHR",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 7.72,
+    "source": "USD",
+    "target": "GTQ",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 1512.12,
+    "source": "USD",
+    "target": "LBP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 748.13,
+    "source": "USD",
+    "target": "MWK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3.38409,
+    "source": "USD",
+    "target": "PGK",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 3760.34,
+    "source": "USD",
+    "target": "UGX",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 18.143,
+    "source": "USD",
+    "target": "MDL",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 14.7789,
+    "source": "USD",
+    "target": "NAD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 7.475,
+    "source": "USD",
+    "target": "SRD",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 384.72,
+    "source": "USD",
+    "target": "KZT",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 0.788519,
+    "source": "USD",
+    "target": "FKP",
+    "time": "2019-06-05T17:35:42+0000"
+  },
+  {
+    "rate": 98.535,
+    "source": "USD",
+    "target": "CVE",
+    "time": "2019-06-05T17:35:42+0000"
+  }
+]

@@ -1,0 +1,24 @@
+Metrics/BlockLength:
+  Exclude:
+    - '*.gemspec'
+    - 'test/**/*.rb'
+
+Layout/EmptyLineAfterGuardClause:
+  Exclude:
+    - 'lib/money/bank/transferwise_bank.rb'
+
+Lint/DuplicateMethods:
+  Exclude:
+    - 'lib/money/bank/transferwise_bank.rb'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'lib/money/bank/transferwise_bank.rb'
+
+Metrics/ClassLength:
+  Exclude:
+    - 'lib/money/bank/transferwise_bank.rb'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'lib/money/bank/transferwise_bank.rb'
