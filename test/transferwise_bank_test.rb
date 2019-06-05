@@ -5,7 +5,12 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'test_helper'))
 
 describe Money::Bank::TransferwiseBank do
   subject { Money::Bank::TransferwiseBank.new }
-  let(:url) { Money::Bank::TransferwiseBank::TW_URL }
+  let(:url) do
+    URI::HTTPS.build(
+      host: Money::Bank::TransferwiseBank::TW_SERVICE_HOST,
+      path: Money::Bank::TransferwiseBank::TW_SERVICE_PATH
+    )
+  end
   let(:source) { Money::Bank::TransferwiseBank::TW_SOURCE }
   let(:temp_cache_path) do
     File.expand_path(File.join(File.dirname(__FILE__), 'temp.json'))
@@ -84,21 +89,21 @@ describe Money::Bank::TransferwiseBank do
 
     it 'should not break an existing file if save fails to read' do
       initial_size = File.read(temp_cache_path).size
-      stub(subject).open_url { '' }
+      stub(subject).open_file { '' }
       subject.update_rates
       File.read(temp_cache_path).size.must_equal initial_size
     end
 
     it 'should not break an existing file if save returns json without rates' do
       initial_size = File.read(temp_cache_path).size
-      stub(subject).open_url { '{ "error": "An error" }' }
+      stub(subject).open_file { '{ "error": "An error" }' }
       subject.update_rates
       File.read(temp_cache_path).size.must_equal initial_size
     end
 
     it 'should not break an existing file if save returns a invalid json' do
       initial_size = File.read(temp_cache_path).size
-      stub(subject).open_url { '{ invalid_json: "An error" }' }
+      stub(subject).open_file { '{ invalid_json: "An error" }' }
       subject.update_rates
       File.read(temp_cache_path).size.must_equal initial_size
     end
@@ -167,7 +172,8 @@ describe Money::Bank::TransferwiseBank do
     end
 
     it 'should update itself with exchange rates from TransferwiseBank' do
-      subject.rates.keys.each do |currency|
+      subject.rates.each do |rate|
+        currency = rate['target']
         next unless Money::Currency.find(currency)
         subject.get_rate('USD', currency).must_be :>, 0
       end
@@ -210,8 +216,8 @@ describe Money::Bank::TransferwiseBank do
       subject.access_key = TEST_ACCESS_KEY
       subject.ttl_in_seconds = 1000
       @old_usd_eur_rate = 0.655
-      # see test/live.json +54
-      @new_usd_eur_rate = 0.886584
+      # see test/live.json +567
+      @new_usd_eur_rate = 0.890082
       subject.cache = temp_cache_path
       stub(subject).source_url { data_path }
       subject.update_rates
@@ -264,7 +270,7 @@ describe Money::Bank::TransferwiseBank do
     end
 
     it 'should return 1970-01-01 datetime if no rates' do
-      stub(subject).open_url { '' }
+      stub(subject).open_file { '' }
       subject.update_rates
       subject.rates_timestamp.must_equal Time.at(0)
     end

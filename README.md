@@ -8,7 +8,7 @@
 [![Dependency Status](https://gemnasium.com/mikelkew/money-transferwise-bank.svg)](https://gemnasium.com/mikelkew/money-transferwise-bank)
 [![License](https://img.shields.io/github/license/mikelkew/money-transferwise-bank.svg)](http://opensource.org/licenses/MIT)
 
-A gem that calculates the exchange rate using available rates from the [TransferWise](https://transferwise.com/) Exchange Rate API
+A gem that calculates the exchange rate using available rates from the [TransferWise](https://transferwise.com/) Exchange Rate API.
 
 ## TransferWise API
 
@@ -37,7 +37,7 @@ See more information about the API in the [TransferWise API Documentation](https
 
 * supports 168 currencies
 * includes [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) virtual currency
-* precision of rates up to 5 digits after point
+* precision of rates up to 6 digits after point
 * uses fast and reliable JSON API
 * average response time < 400ms
 * supports caching currency rates

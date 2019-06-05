@@ -2,7 +2,7 @@
 
 require 'money'
 require 'json'
-# require 'open-uri'
+require 'open-uri'
 require 'httparty'
 
 # Money gem class
@@ -31,19 +31,16 @@ class Money
     # TransferwiseBank base class
     class TransferwiseBank < Money::Bank::VariableExchange
       # TransferwiseBank url components
-      TW_SERVICE_HOST = 'api.transferwise.com'
-      TW_SERVICE_PATH = '/v1/rates'
+      TW_SERVICE_HOST = 'api.transferwise.com'.freeze
+      TW_SERVICE_PATH = '/v1/rates'.freeze
 
-      TW_SANDBOX_SERVICE_HOST = 'api.sandbox.transferwise.tech'
+      TW_SANDBOX_SERVICE_HOST = 'api.sandbox.transferwise.tech'.freeze
 
       # Default SSL Version
       TW_SERVICE_SSL_VERSION = :TLSv1_2
 
       # Default base currency
-      TW_SOURCE = 'USD'
-
-      attr_accessor :service_path
-      attr_accessor :service_ssl_version
+      TW_SOURCE = 'USD'.freeze
 
       # API must have a valid access_key
       #
@@ -298,9 +295,17 @@ class Money
       # Get remote content and store in cache
       # @return [String] unparsed JSON content
       def read_from_url
-        rates = retrieve_rates
+        rates = source_url.is_a?(URI::HTTPS) ? retrieve_rates : open_file
         store_in_cache(rates) if valid_rates?(rates) && cache
         rates
+      end
+
+      # Opens an file and reads the content
+      # @return [String] unparsed JSON content
+      def open_file
+        open(source_url).read
+      rescue OpenURI::HTTPError
+        ''
       end
 
       # Opens an url and reads the content
