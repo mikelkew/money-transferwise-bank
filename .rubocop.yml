@@ -1,24 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.0
+
 Metrics/BlockLength:
   Exclude:
     - '*.gemspec'
     - 'test/**/*.rb'
 
-Layout/EmptyLineAfterGuardClause:
-  Exclude:
-    - 'lib/money/bank/transferwise_bank.rb'
-
 Lint/DuplicateMethods:
+  Enabled: false
+
+Lint/RescueWithoutErrorClass:
   Exclude:
-    - 'lib/money/bank/transferwise_bank.rb'
+    - 'test/transferwise_bank_test.rb'
 
 Metrics/AbcSize:
-  Exclude:
-    - 'lib/money/bank/transferwise_bank.rb'
+  Enabled: false
 
 Metrics/ClassLength:
-  Exclude:
-    - 'lib/money/bank/transferwise_bank.rb'
+  Enabled: false
 
 Metrics/MethodLength:
-  Exclude:
-    - 'lib/money/bank/transferwise_bank.rb'
+  Enabled: false
+
+Style/RedundantFreeze:
+  Enabled: false
