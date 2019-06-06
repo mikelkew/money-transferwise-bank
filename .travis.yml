@@ -1,9 +1,17 @@
-sudo: false
+sudo: true
 bundler_args: --jobs=3 --retry=3
 language: ruby
 cache: bundler
+
 before_install:
+  - gem update --system
   - gem update --remote bundler
+
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
 rvm:
   - 2.0.0
   - 2.1
@@ -15,14 +23,20 @@ rvm:
   - jruby-9.1.7.0
   - ruby-head
   - jruby-head
+
 matrix:
   allow_failures:
     - rvm: ruby-head
     - rvm: jruby-head
   fast_finish: true
+
 notifications:
   email:
     on_success: change
     on_failure: always
+
 script:
   - bundle exec rake
+
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
