@@ -21,6 +21,3 @@ Metrics/ClassLength:
 
 Metrics/MethodLength:
   Enabled: false
-
-Style/RedundantFreeze:
-  Enabled: false

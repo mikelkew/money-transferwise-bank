@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.7'
   s.add_dependency 'httparty', '~> 0.17'
   s.add_dependency 'json', '>= 1.8'
-  s.add_dependency 'monetize', '~> 1.8'
+  s.add_dependency 'monetize', '~> 1.7'
   s.add_dependency 'money', '~> 6.9'
   s.add_development_dependency 'inch', '~> 0.8'
   s.add_development_dependency 'minitest', '~> 5.11'
