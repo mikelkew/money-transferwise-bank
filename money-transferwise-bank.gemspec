@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'money-transferwise-bank'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.date = Time.now.utc.strftime('%Y-%m-%d')
   s.homepage = "http://github.com/mikelkew/#{s.name}"
   s.authors = ['Mikel Kew']
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.0.0'
   s.rubygems_version = '1.3.7'
   s.add_dependency 'httparty', '~> 0.17'
-  s.add_dependency 'json', '>= 1.8'
+  s.add_dependency 'json', '>= 1.7'
   s.add_dependency 'monetize', '~> 1.7'
   s.add_dependency 'money', '~> 6.9'
   s.add_development_dependency 'inch', '~> 0.8'
