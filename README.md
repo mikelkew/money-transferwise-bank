@@ -1,7 +1,7 @@
 # Money TransferWise Bank
 
-<!-- [![Gem Version](https://badge.fury.io/rb/money-transferwise-bank.svg)](https://rubygems.org/gems/money-transferwise-bank)
-[![Gem](https://img.shields.io/gem/dt/money-transferwise-bank.svg?maxAge=2592000)](https://rubygems.org/gems/money-transferwise-bank) -->
+[![Gem Version](https://badge.fury.io/rb/money-transferwise-bank.svg)](https://rubygems.org/gems/money-transferwise-bank)
+[![Gem](https://img.shields.io/gem/dt/money-transferwise-bank.svg?maxAge=2592000)](https://rubygems.org/gems/money-transferwise-bank)
 [![Build Status](https://secure.travis-ci.org/mikelkew/money-transferwise-bank.svg?branch=master)](https://travis-ci.org/mikelkew/money-transferwise-bank)
 [![Code Climate](https://api.codeclimate.com/v1/badges/2f2915f2fb539324fe3f/maintainability)](https://codeclimate.com/github/mikelkew/money-transferwise-bank)
 [![Inline Docs](http://inch-ci.org/github/mikelkew/money-transferwise-bank.svg?branch=master)](http://inch-ci.org/github/mikelkew/money-transferwise-bank)
@@ -30,7 +30,7 @@ A gem that calculates the exchange rate using available rates from the [Transfer
 ]
 ~~~
 
-See more information about the API in the [TransferWise API Documentation](https://api-docs.transferwise.com/#exchange-rates)
+Note that the TransferWise API is only available if you sign up for a free TransferWise account. See more information about their API in the [TransferWise API Documentation](https://api-docs.transferwise.com/#exchange-rates)
 
 ## Features
 
