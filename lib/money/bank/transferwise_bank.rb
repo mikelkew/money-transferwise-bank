@@ -165,6 +165,7 @@ class Money
           add_rate(source, currency, rate)
           add_rate(currency, source, 1.0 / rate)
         end
+        add_rate(source, source, 1.0)
         @rates_mem_timestamp = rates_timestamp
         rates
       end
