@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'money-transferwise-bank'
-  s.version = '0.1.2'
+  s.version = '0.1.3'
   s.date = Time.now.utc.strftime('%Y-%m-%d')
   s.homepage = "http://github.com/mikelkew/#{s.name}"
   s.authors = ['Mikel Kew']

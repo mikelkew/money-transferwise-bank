@@ -28,19 +28,22 @@ class Money
     # App id not set error
     class NoAccessKey < StandardError; end
 
+    # Other API error
+    class ApiError < StandardError; end
+
     # TransferwiseBank base class
     class TransferwiseBank < Money::Bank::VariableExchange
       # TransferwiseBank url components
-      TW_SERVICE_HOST = 'api.transferwise.com'.freeze
-      TW_SERVICE_PATH = '/v1/rates'.freeze
+      TW_SERVICE_HOST = 'api.transferwise.com'
+      TW_SERVICE_PATH = '/v1/rates'
 
-      TW_SANDBOX_SERVICE_HOST = 'api.sandbox.transferwise.tech'.freeze
+      TW_SANDBOX_SERVICE_HOST = 'api.sandbox.transferwise.tech'
 
       # Default SSL Version
       TW_SERVICE_SSL_VERSION = :TLSv1_2
 
       # Default base currency
-      TW_SOURCE = 'USD'.freeze
+      TW_SOURCE = 'USD'
 
       # API must have a valid access_key
       #
@@ -156,7 +159,14 @@ class Money
       # @return [Array] array of exchange rates
       def update_rates(straight = false)
         new_rates = exchange_rates(straight)
+
+        unless new_rates.is_a?(Array)
+          return unless raise_on_failure
+          raise ApiError, new_rates
+        end
+
         return if new_rates.first.empty?
+
         store.reset!
         rates = new_rates.each do |exchange_rate|
           currency = exchange_rate['target']
